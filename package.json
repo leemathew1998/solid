@@ -9,6 +9,7 @@
     "url": "https://github.com/solidjs/solid"
   },
   "private": true,
+  "workspaces": ["packages/*"],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "test": "turbo run test test-types",
